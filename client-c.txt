@@ -2,3 +2,15 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+Set variable 'i' to 0
+WHILE 'i' is less than or equal to 50
+	FOR every package scan input
+		increment 'i' by 2
+		print 'i'
+	IF 'i' equals 50 exactly
+		print "case complete, starting new case"
+		Set 'i' to 0
+	END IF
+END WHILE
+END

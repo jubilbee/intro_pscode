@@ -2,3 +2,17 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+Define the layout of the warehouse as a grid
+Set 'target_position' as a variable
+Set 'user_position' as a variable
+Get user_position
+Get target_position
+Check if user_position is equal to target_position
+WHILE user_position does not equal target_position
+	if target position (x, y) is greater than user position (on x), prompt user to move south
+ 	if target position (x, y) is less than user position (on x), prompt user to move north
+ 	if target position (x, y) is greater than user position (on y), prompt user to move east
+ 	if target position (x, y) is less than user position (on y), prompt user to move west
+repeat until user_position is equal to target_position
+END	

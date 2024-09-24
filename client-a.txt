@@ -2,3 +2,27 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+Generate a random number between 1 and 10
+Print "Guess a number between 1 and 10!"
+Get guess from user
+WHILE guess is not between 1 and 10, 
+	print "Please enter a number between 1 and 10"
+END WHILE
+Count number of guesses input
+WHILE guess is incorrect AND number of guesses is less than or equal to 3
+	If number of guesses equals 1
+		print "Incorrect! Only 2 guesses left"
+		Get new guess
+	Else If number of guesses equals 2
+		print "Incorrect! Only 1 guess left"
+		Get new guess
+	Else
+		print "Incorrect! You lose"
+		End game and ask user to play again
+END WHILE
+WHILE guess is correct
+	print "Congratulations! You guessed correctly"
+	End game and ask user to play again
+END WHILE
+END
